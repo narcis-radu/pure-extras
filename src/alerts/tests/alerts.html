@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pure extras: alerts</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+        <link rel="stylesheet" href="../css/alerts.css">
+        <style type="text/css">
+            body, .pure-box {
+                padding: 1em;
+            }
+
+            .pure-box-right {
+                padding-right: 1em;
+            }
+
+            .pure-box-left {
+                padding-left: 1em;
+            }
+
+            @media (max-width: 767px) {
+                .pure-box-left, .pure-box-right {
+                    padding: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Alert</h2>
+        <p>
+            <div class="pure-alert">
+                Hello there! This is the default alert.
+            </div>
+        </p>
+
+        <h2>Alert Color</h2>
+        <p>
+            <div class="pure-alert">Default alert</div>
+            <div class="pure-alert pure-alert-primary">Primary alert</div>
+            <div class="pure-alert pure-alert-success">
+                <strong>Well done!</strong> Your data was saved.
+            </div>
+            <div class="pure-alert pure-alert-info">
+                <strong>You need to press the button</strong>. Just kidding, there's no need to do that.
+            </div>   
+            <div class="pure-alert pure-alert-warning">
+                <strong>Warning!</strong> A warning message.
+            </div>  
+            <div class="pure-alert pure-alert-error">
+                <strong>Error!</strong> Something went wrong. Go to the <a href="#">support center</a>.
+            </div>                                                  
+        </p>       
+        <br/>
+        <h2>Alert with JavaScript</h2>
+        <p>
+            <div class="pure-alert">
+                <a href="#" class="close" rel="pure-alert-dismiss">&times;</a>
+                Default alert
+            </div>            
+            <div class="pure-g-r">
+                <div class="pure-u-1-2">
+                    <div class="pure-box-right">
+                        <div class="pure-alert pure-alert-error">
+                            <a href="#" class="close" rel="pure-alert-dismiss">&times;</a>
+                            <strong>Error!</strong> Something went wrong. Go to the <a href="#">support center</a>.
+                        </div> 
+                    </div>                   
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="pure-box-left">
+                        <div class="pure-alert pure-alert-info">
+                            <a href="#" class="close" rel="pure-alert-dismiss">&times;</a>
+                            <strong>You need to press the button</strong>. Just kidding, there's no need to do that.
+                        </div>  
+                    </div>                   
+                </div>
+                <div class="pure-u-1-3">
+                    <div class="pure-box-right">
+                        <div class="pure-alert pure-alert-success">
+                            <a href="#" class="close" rel="pure-alert-dismiss">&times;</a>
+                            <strong>Well done!</strong> Your data was saved.
+                        </div>     
+                    </div>               
+                </div>
+            </div>
+        </p>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="../js/alerts.js"></script>       
+    </body>
+</html>

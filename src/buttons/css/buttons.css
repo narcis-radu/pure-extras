@@ -1,0 +1,42 @@
+/* button size xsmall, small, large, xlarge */
+.pure-button-xsmall {
+	font-size: 70%;
+}
+
+.pure-button-small {
+	font-size: 85%;
+}
+
+.pure-button-large {
+	font-size: 115%;
+}
+
+.pure-button-xlarge {
+	font-size: 130%;
+}
+
+/* button color success (#2ecc71), info (#5bc0de), warning (#f39c12), error (#e74c3c) */
+.pure-button-success {
+	background-color: #2ecc71;
+	color: #fff;
+}
+
+.pure-button-info {
+	background-color: #5bc0de;
+	color: #fff;
+}
+
+.pure-button-warning {
+	background-color: #f39c12;
+	color: #fff;
+}
+
+.pure-button-error {
+	background-color: #e74c3c;
+	color: #fff;
+}
+
+/* button type */
+.pure-button-block {
+	display: block;
+}

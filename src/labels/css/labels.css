@@ -1,0 +1,41 @@
+/* labels */
+.pure-label {
+	display: inline;
+	background-color: #e6e6e6;
+	color: #222;
+	font-size: 70%;
+	padding: .2em .5em .23em;
+	text-align: center;
+	white-space: nowrap;
+	border-radius: .25em;
+	position: relative;
+	top: -.1em;
+	font-weight: bold;
+	line-height: 1;
+}
+
+/* label color primary (#0078e7), success (#2ecc71), info (#5bc0de), warning (#f39c12), error (#e74c3c) */
+.pure-label-primary {
+	background-color: #0078e7;
+	color: #fff;
+}
+
+.pure-label-success {
+	background-color: #2ecc71;
+	color: #fff;
+}
+
+.pure-label-info {
+	background-color: #5bc0de;
+	color: #fff;
+}
+
+.pure-label-warning {
+	background-color: #f39c12;
+	color: #fff;
+}
+
+.pure-label-error {
+	background-color: #e74c3c;
+	color: #fff;
+}
