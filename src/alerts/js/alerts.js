@@ -1,10 +1,10 @@
 ;(function($){
 	$.fn.pure_alert = function() {
 		return $(this).on("click", function(e) {
-			$(this).parent().fadeOut();
 			e.preventDefault();
+			$(this).parent().fadeOut();
 		})
 	}
 
-	$('a[rel="pure-alert-dismiss"]').pure_alert();
+	$('.pure-alert > a[rel="pure-alert-dismiss"]').pure_alert();
 }(jQuery));
