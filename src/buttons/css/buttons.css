@@ -40,3 +40,38 @@
 .pure-button-block {
 	display: block;
 }
+
+/* social buttons */
+.pure-button-social i {
+	padding-right: 0.3em;
+}
+
+.pure-button-twitter {
+	background-color: #3697b2;
+	color: #fff;
+}
+
+.pure-button-facebook {
+	background-color: #3b5997;
+	color: #fff;
+}
+
+.pure-button-google {
+	background-color: #d64937;
+	color: #fff;
+}
+
+.pure-button-linkedin {
+	background-color: #0073b2;
+	color: #fff;
+}
+
+.pure-button-pinterest {
+	background-color: #cb2027;
+	color: #fff;
+}
+
+.pure-button-github {
+	background-color: #3a3838;
+	color: #fff;
+}
